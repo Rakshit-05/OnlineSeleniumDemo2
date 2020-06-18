@@ -1,0 +1,211 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 04 14:04:25 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>54 seconds (54014 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test_scripts.TestAnnotationDemo1.m1()'><b>m1</b><br>Test class: test_scripts.TestAnnotationDemo1<br/>
+<a href="#Output-1910896157" onClick='toggleBox("Output-1910896157", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1910896157" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1910896157">
+urbanlader launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>test_scripts.TestAnnotationDemo1@175b9425</td></tr>
+<tr>
+<td title='test_scripts.TestAnnotationDemo3.m1()'><b>m1</b><br>Test class: test_scripts.TestAnnotationDemo3<br/>
+<a href="#Output-698747943" onClick='toggleBox("Output-698747943", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-698747943" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-698747943">
+after Test<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test_scripts.TestAnnotationDemo3@3098cf3b</td></tr>
+<tr>
+<td title='test_scripts.GroupDemo.m1()'><b>m1</b><br>Test class: test_scripts.GroupDemo<br/>
+<a href="#Output-1504321715" onClick='toggleBox("Output-1504321715", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1504321715" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1504321715">
+m1 -group a<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test_scripts.GroupDemo@6a03bcb1</td></tr>
+<tr>
+<td title='test_scripts.TestAnnotationDemo.m1()'><b>m1</b><br>Test class: test_scripts.TestAnnotationDemo<br/>
+<a href="#Output-369901249" onClick='toggleBox("Output-369901249", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-369901249" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-369901249">
+urbanlader launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>test_scripts.TestAnnotationDemo@610f7aa</td></tr>
+<tr>
+<td title='test_scripts.TestAnnotationDemo.m1()'><b>m1</b><br>Test class: test_scripts.TestAnnotationDemo<br/>
+<a href="#Output-305552520" onClick='toggleBox("Output-305552520", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-305552520" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-305552520">
+urbanlader launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>test_scripts.TestAnnotationDemo@610f7aa</td></tr>
+<tr>
+<td title='test_scripts.GroupDemo.m2()'><b>m2</b><br>Test class: test_scripts.GroupDemo<br/>
+<a href="#Output-910123336" onClick='toggleBox("Output-910123336", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-910123336" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-910123336">
+m2 -group b<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test_scripts.GroupDemo@6a03bcb1</td></tr>
+<tr>
+<td title='test_scripts.GroupDemo.m3()'><b>m3</b><br>Test class: test_scripts.GroupDemo<br/>
+<a href="#Output-1260487756" onClick='toggleBox("Output-1260487756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1260487756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1260487756">
+m3 -group a<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test_scripts.GroupDemo@6a03bcb1</td></tr>
+<tr>
+<td title='test_scripts.TestAnnotationDemo.m3()'><b>m3</b><br>Test class: test_scripts.TestAnnotationDemo<br/>
+<a href="#Output-973604791" onClick='toggleBox("Output-973604791", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-973604791" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-973604791">
+urbanlader launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>test_scripts.TestAnnotationDemo@610f7aa</td></tr>
+<tr>
+<td title='test_scripts.GroupDemo.m4()'><b>m4</b><br>Test class: test_scripts.GroupDemo<br/>
+<a href="#Output-455668354" onClick='toggleBox("Output-455668354", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-455668354" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-455668354">
+m4 -group b<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test_scripts.GroupDemo@6a03bcb1</td></tr>
+<tr>
+<td title='test_scripts.TestAnnotationDemo.m5()'><b>m5</b><br>Test class: test_scripts.TestAnnotationDemo<br/>
+<a href="#Output-895366343" onClick='toggleBox("Output-895366343", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-895366343" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-895366343">
+urbanlader launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>test_scripts.TestAnnotationDemo@610f7aa</td></tr>
+<tr>
+<td title='test_scripts.GroupDemo.m5()'><b>m5</b><br>Test class: test_scripts.GroupDemo<br/>
+<a href="#Output-328197868" onClick='toggleBox("Output-328197868", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-328197868" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-328197868">
+m5 -group a and b<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test_scripts.GroupDemo@6a03bcb1</td></tr>
+</table><p>
+</body>
+</html>
